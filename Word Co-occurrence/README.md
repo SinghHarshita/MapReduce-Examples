@@ -24,3 +24,6 @@ Word co-occurrence using MapReduce framework.
 ```shell
  hdfs dfs -cat WCOutput/part-00000
 ```
+
+## Dataset Used
+IMDB Movie reviews dataset has been used for this task.

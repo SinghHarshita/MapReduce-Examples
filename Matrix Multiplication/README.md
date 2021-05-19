@@ -24,3 +24,6 @@ Word co-occurrence using MapReduce framework.
 ```shell
  hdfs dfs -cat MRAdvancedMMOutput/part-r-00000
 ```
+
+## Dataset Used
+Used 1000 x 100 matrix M and 100 x 1000 matrix N with sparsity level of 0.3. This means each matrix has about 30K entries. 
