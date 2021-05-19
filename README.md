@@ -13,4 +13,14 @@ Word co-occurrence using MapReduce framework.
  javac -classpath 'hadoop classpath' *.java 
 ```
 5. Create jar file
-8. Submit a map reduce job to hadoop.
+```shell
+ jar cvf MRBasicWC.jar *.class
+```
+6. Submit a map reduce job to hadoop.
+```shell
+ hadoop jar MRBasicWC.jar WCDriver /reviews.txt WCOutput
+```
+7. View the output file using the following command :
+```shell
+ hadoop fs -cat WCOutput/part-00000
+```
